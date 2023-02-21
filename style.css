@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(199, 191, 194);;
+}
+
+h1, h3{
+    text-align: center;
+    color: rgb(123, 7, 54);
+    padding-top: 30px;
+}
+
+#promenaSobe{
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 15%;
+    display: block;
+    border: 1px solid  rgb(123, 7, 54);
+    border-radius: 5px;
+    background-color: rgb(123, 7, 54);
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+#promenaSobe button:hover{
+    background-color: rgb(148, 26, 112);
+    border: 5px solid rgb(32, 30, 31);
+} 
+
+.input-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input:focus{
+    border: 4px solid rgb(32, 30, 31);
+}
+
+#btnSend, #btnUpdate, #btnUpdateColor{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  rgb(123, 7, 54);
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btnSend:hover, #btnUpdate:hover{
+    background-color:  rgb(148, 26, 112);
+    border: 5px solid rgb(32, 30, 31);
+}
+
+#username-ispis{
+    display: flex;
+    justify-content: center;
+}
+
+.novi-username{
+    text-align: center;
+    border: 3px solid rgb(32, 30, 31);
+    border-radius: 50px 15px;
+    background-color:  rgb(148, 26, 112);
+    font-size: 40px;
+    margin-top: 50px;
+    width: 400px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+#messages{
+    display: flex;
+    justify-content: center;
+}
+
+#listMessage{
+    overflow: hidden;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+#listMessage li{
+    list-style: none;
+    border:3px solid rgb(123, 7, 54);
+    box-shadow: 2px 3px rgb(123, 7, 54);;
+    border-radius: 0px 0px 0px 10px;
+    background-color: rgb(241, 189, 212);
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-bottom: 8px;
+}
+
+#listMessage .desno{
+    background-color: rgb(206, 80, 136);
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+}
+
+#listMessage .levo{
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+    margin-right: 10px;
+}
+
+#message{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+
+}
+
+#message:focus{
+    border: 4px solid rgb(32, 30, 31);
+}
+
+.brisanjePoruke{
+    float: right;
+}
+
+.fa-trash-o{
+    float: right;
+}
